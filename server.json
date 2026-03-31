@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.Blue-Gamma/bluegamma",
+  "title": "BlueGamma - Real-time Interest Rate Data",
+  "description": "Real-time interest rate data: swap rates, forward curves, FX, bonds for 60+ indices.",
+  "repository": {
+    "url": "https://github.com/Blue-Gamma/bluegamma-mcp",
+    "source": "github"
+  },
+  "version": "1.0.0",
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp.bluegamma.io/mcp/"
+    }
+  ]
+}
