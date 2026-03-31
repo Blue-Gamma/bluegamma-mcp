@@ -4,6 +4,8 @@ Real-time interest rate data for AI assistants via the [Model Context Protocol](
 
 Connect Claude, Cursor, or any MCP-compatible client to live swap rates, forward curves, discount factors, FX rates, government bond yields, and more - covering 60+ indices across 30+ currencies.
 
+For full setup instructions, see the [BlueGamma MCP documentation](https://www.bluegamma.io/documentation/integrations/model-context-protocol).
+
 [![Website](https://img.shields.io/badge/Website-bluegamma.io-blue)](https://www.bluegamma.io)
 [![Docs](https://img.shields.io/badge/Docs-docs.bluegamma.io-green)](https://www.bluegamma.io/documentation/integrations/model-context-protocol)
 [![License](https://img.shields.io/badge/License-Proprietary-red)](#license)
