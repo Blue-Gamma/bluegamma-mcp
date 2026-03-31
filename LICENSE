@@ -1,0 +1,14 @@
+Copyright (c) 2026 BlueGamma Ltd. All rights reserved.
+
+This repository contains documentation and configuration examples for the
+BlueGamma MCP server. The MCP server itself is a proprietary hosted service.
+
+You may use the configuration examples in this repository to connect to the
+BlueGamma MCP server. Redistribution of this documentation is permitted
+provided this copyright notice is retained.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED. IN NO EVENT SHALL BLUEGAMMA LTD BE LIABLE FOR ANY CLAIM, DAMAGES
+OR OTHER LIABILITY ARISING FROM THE USE OF THIS SOFTWARE.
+
+For full terms, see https://www.bluegamma.io/terms
