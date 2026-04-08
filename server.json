@@ -3,6 +3,7 @@
   "name": "io.github.Blue-Gamma/bluegamma",
   "title": "BlueGamma - Real-time Interest Rate Data",
   "description": "Real-time interest rate data: swap rates, forward curves, FX, bonds for 60+ indices.",
+  "icon": "https://assets.bluegamma.io/logos/logo.svg",
   "repository": {
     "url": "https://github.com/Blue-Gamma/bluegamma-mcp",
     "source": "github"
