@@ -16,25 +16,14 @@ You need a BlueGamma account with an active plan or free trial. [Sign up here](h
 
 ## Quick Start
 
-### Claude Desktop
+### Claude (desktop app and claude.ai)
 
-Add to your Claude Desktop config (`claude_desktop_config.json`):
-
-```json
-{
-  "mcpServers": {
-    "bluegamma-api": {
-      "type": "http",
-      "url": "https://mcp.bluegamma.io/mcp"
-    }
-  }
-}
-```
+Open **Settings → Connectors → Add custom connector**, name it `BlueGamma`, and use the URL `https://mcp.bluegamma.io/mcp`. Remote servers are added here, not in `claude_desktop_config.json`, which only takes local servers.
 
 ### Claude Code
 
 ```bash
-claude mcp add bluegamma-api --transport http https://mcp.bluegamma.io/mcp
+claude mcp add --transport http bluegamma-api https://mcp.bluegamma.io/mcp
 ```
 
 ### Cursor
@@ -143,7 +132,7 @@ For the full list, use the `list_supported_indices` tool.
 
 BlueGamma uses OAuth for MCP connections. On first use, you'll be redirected to sign in via your browser. You need an active plan or free trial - [sign up](https://app.bluegamma.io) or [book a demo](https://app.lemcal.com/@alivohra/website-demo?back=1) to get access.
 
-Rates are returned in percent (4.25 means 4.25%). Results are structured JSON.
+Rates are returned in percent (4.25 means 4.25%), except `get_gov_yield`, which returns a decimal (0.0501 means 5.01%). Results are structured JSON.
 
 ## Documentation
 
